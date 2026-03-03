@@ -1,12 +1,5 @@
-[gd_scene format=3 uid="uid://rm3mybpbhfqy"]
+[gd_scene format=3 uid="uid://bx4rh73nwrndb"]
 
 [ext_resource type="PackedScene" uid="uid://dmsho2v8p7tbw" path="res://Facility/Facility.tscn" id="1_gghrq"]
 
 [node name="Facility" unique_id=1023461794 instance=ExtResource("1_gghrq")]
-position = Vector2(35, -92)
-
-[node name="CollisionFacility" parent="." index="0" unique_id=611565493]
-position = Vector2(-34, 92)
-
-[node name="Sprite2D" parent="." index="1" unique_id=1067363560]
-position = Vector2(-33, 94)

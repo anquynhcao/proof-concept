@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://da0hrlkfrx3ls"]
+
+[ext_resource type="PackedScene" uid="uid://dmsho2v8p7tbw" path="res://Facility/Facility.tscn" id="1_rufuy"]
+
+[node name="Facility" unique_id=1023461794 instance=ExtResource("1_rufuy")]
+
+[node name="CollisionFacility" parent="." index="0" unique_id=611565493]
+position = Vector2(0, 0)
+
+[node name="Sprite2D" parent="." index="1" unique_id=1067363560]
+position = Vector2(1, 1.0000076)

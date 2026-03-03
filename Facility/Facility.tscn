@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dmsho2v8p7tbw"]
+
+[ext_resource type="Script" uid="uid://qu0n4jdfmaba" path="res://Facility/Facility.cs" id="1_lsgvt"]
+[ext_resource type="Script" uid="uid://bcbquhp342hlh" path="res://Facility/CollisionFacility.cs" id="2_yd37r"]
+[ext_resource type="Texture2D" uid="uid://c8nvu4me04k0h" path="res://icon.svg" id="3_die2a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xurrk"]
+size = Vector2(200, 200)
+
+[node name="Facility" type="Area2D" unique_id=1023461794]
+script = ExtResource("1_lsgvt")
+
+[node name="CollisionFacility" type="CollisionShape2D" parent="." unique_id=611565493]
+shape = SubResource("RectangleShape2D_xurrk")
+script = ExtResource("2_yd37r")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1067363560]
+position = Vector2(0, 2.0000076)
+scale = Vector2(1.5390625, 1.5234375)
+texture = ExtResource("3_die2a")
